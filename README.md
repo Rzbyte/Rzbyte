@@ -18,17 +18,15 @@
 
 These are separate projects, not one system — nothing flows between them. What connects them is the question each one answers. Grouping them this way is how I pick what to build next.
 
-```mermaid
-flowchart LR
-    D["1 - DETECT<br/>notice something<br/> <br/>FSignal<br/>whale-pacifica<br/>TraceVault"]
-    E["2 - DECIDE<br/>is it safe?<br/> <br/>SafeHands<br/>PhylaX"]
-    A["3 - ACT<br/>act on it<br/> <br/>Rivo<br/>Piggy Sentinel<br/>CollabOS"]
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/layers-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/layers-light.svg">
+  <img alt="Three layers: DETECT, DECIDE, ACT" src="assets/layers-dark.svg" width="100%">
+</picture>
+</div>
 
-    D -.-> E -.-> A
-
-    style E stroke:#0e75b6,stroke-width:3px
-```
-The middle layer is the one I keep coming back to: **nothing should reach a wallet without a verdict first.**
+**Nothing should reach a wallet without a verdict first.** That is the line most of this work is drawn around.
 
 <br/>
 
