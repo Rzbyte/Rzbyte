@@ -1,15 +1,50 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0e75b6,100:0D1117&height=170&section=header&text=Rzbyte&fontSize=58&fontColor=ffffff&fontAlignY=32&desc=Architecting%20the%20boundary%20where%20autonomous%20agents%20touch%20real%20money&descAlignY=54&descSize=15" width="100%" />
-
-Transaction firewalls, agent validation, and onchain trust layers.<br/>
-I ship policy engines that decide **before** a wallet signs.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img alt="Rzbyte — Architecting the boundary where autonomous agents touch real money" src="assets/header-dark.svg" width="100%">
+</picture>
 
 <a href="https://safehands.fun"><img src="https://img.shields.io/badge/safehands.fun-0e75b6?style=for-the-badge&logoColor=white" /></a>
 <a href="https://x.com/rzbyte_"><img src="https://img.shields.io/badge/@rzbyte__-0D1117?style=for-the-badge&logo=x&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Indonesia-161B22?style=for-the-badge" />
 
 </div>
+
+<br/>
+
+## How the work fits together
+
+Every project below sits on one of three layers. Read left to right: notice something, decide whether it is safe, then act on it.
+
+```mermaid
+flowchart LR
+    subgraph DETECT["1 - DETECT"]
+        direction TB
+        F["FSignal<br/>founder signals, 4.4d lead"]
+        W["whale-pacifica<br/>whale + liquidation flow"]
+        T["TraceVault<br/>incident recall"]
+    end
+
+    subgraph DECIDE["2 - DECIDE"]
+        direction TB
+        S["SafeHands<br/>ALLOW / BLOCK before signing"]
+        P["PhylaX<br/>token risk + route scan"]
+    end
+
+    subgraph ACT["3 - ACT"]
+        direction TB
+        R["Rivo<br/>agent validation, 2179 contracts"]
+        PS["Piggy Sentinel<br/>non-custodial savings"]
+        C["CollabOS<br/>partnership agent, 232 tests"]
+    end
+
+    DETECT --> DECIDE --> ACT
+
+    style DECIDE stroke:#0e75b6,stroke-width:2px
+```
+The middle layer is the one I care most about: **nothing reaches a wallet without a verdict first.**
 
 <br/>
 
@@ -93,27 +128,27 @@ I ship policy engines that decide **before** a wallet signs.
 
 <table>
   <tr>
-    <td valign="top"><b><a href="https://github.com/Rzbyte/vehicle-booking">vehicle-booking</a></b></td>
+    <td valign="top" nowrap><b><a href="https://github.com/Rzbyte/vehicle-booking">vehicle-booking</a></b></td>
     <td>Fleet booking system delivered for a nickel mining company. Two-level approval workflow, usage analytics, Excel report export.</td>
     <td align="right" nowrap><img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /></td>
   </tr>
   <tr>
-    <td valign="top"><b><a href="https://github.com/Rzbyte/CollabOS">CollabOS</a></b></td>
+    <td valign="top" nowrap><b><a href="https://github.com/Rzbyte/CollabOS">CollabOS</a></b></td>
     <td>Autonomous creator partnership director on Minds by Animoca Brands. <b>232 tests</b>, Playwright E2E against the live platform.</td>
     <td align="right" nowrap><img src="https://img.shields.io/badge/Next.js-0D1117?style=flat-square&logo=next.js&logoColor=white" /> <img src="https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white" /></td>
   </tr>
   <tr>
-    <td valign="top"><b><a href="https://github.com/Rzbyte/safehands-solana">safehands-solana</a></b></td>
+    <td valign="top" nowrap><b><a href="https://github.com/Rzbyte/safehands-solana">safehands-solana</a></b></td>
     <td>SafeHands pre-execution policy engine ported to Solana.</td>
     <td align="right" nowrap><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/Solana-14F195?style=flat-square&logo=solana&logoColor=black" /></td>
   </tr>
   <tr>
-    <td valign="top"><b><a href="https://github.com/Rzbyte/whale-pacifica">whale-pacifica</a></b></td>
+    <td valign="top" nowrap><b><a href="https://github.com/Rzbyte/whale-pacifica">whale-pacifica</a></b></td>
     <td>Whale activity and liquidation-cascade monitor for Pacifica perpetuals.</td>
     <td align="right" nowrap><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /></td>
   </tr>
   <tr>
-    <td valign="top"><b><a href="https://github.com/Rzbyte/recall-dashboard">recall-dashboard</a></b></td>
+    <td valign="top" nowrap><b><a href="https://github.com/Rzbyte/recall-dashboard">recall-dashboard</a></b></td>
     <td><a href="https://recall-agent-dashboard.vercel.app">Live</a> dashboard tracking Recall Network agent decisions and outcomes.</td>
     <td align="right" nowrap><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /></td>
   </tr>
