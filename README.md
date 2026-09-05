@@ -14,9 +14,9 @@
 
 <br/>
 
-## How the work fits together
+## How I think about the problem
 
-Every project below sits on one of three layers. Read left to right: notice something, decide whether it is safe, then act on it.
+These are separate projects, not one system. What connects them is the question each one answers: notice something, decide whether it is safe, then act on it. Grouping them this way is how I pick what to build next.
 
 ```mermaid
 flowchart LR
@@ -40,11 +40,11 @@ flowchart LR
         C["CollabOS<br/>partnership agent, 232 tests"]
     end
 
-    DETECT --> DECIDE --> ACT
+    DETECT -.-> DECIDE -.-> ACT
 
     style DECIDE stroke:#0e75b6,stroke-width:2px
 ```
-The middle layer is the one I care most about: **nothing reaches a wallet without a verdict first.**
+The middle layer is the one I keep coming back to: **nothing should reach a wallet without a verdict first.**
 
 <br/>
 
