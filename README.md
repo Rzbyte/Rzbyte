@@ -74,16 +74,16 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/Rzbyte/CollabOS">CollabOS</a></h3>
-      <p align="center"><i>Autonomous Creator Director</i></p>
-      <p>Runs the full partnership lifecycle on Minds: finds collaborators, admits them, coordinates campaigns. <b>232 E2E tests</b> verified against the live platform.</p>
+      <h3 align="center"><a href="https://github.com/Rzbyte/PiggySentinel">Piggy Sentinel</a></h3>
+      <p align="center"><i>Autonomous Savings Agent on Celo</i></p>
+      <p>Set a goal and a budget. Penny allocates into <b>Aave V3</b>, monitors, and rebalances. Non-custodial &mdash; it moves only within the on-chain allowance you set.</p>
       <p align="center">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/> 
-        <img src="https://img.shields.io/badge/Postgres-336791?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/> 
+        <img src="https://img.shields.io/badge/Celo-FCFF52?style=flat-square&logo=celo&logoColor=black"/>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/Rzbyte/tracevault">TraceVault</a></h3>
+      <h3 align="center"><a href="https://github.com/Rzbyte/TraceVault">TraceVault</a></h3>
       <p align="center"><i>Vector Search for Incidents</i></p>
       <p>Paste an error, find the fix. Local embeddings via <code>all-MiniLM-L6-v2</code> and HNSW cosine search via Actian VectorAI DB. Fully offline capable.</p>
       <p align="center">
