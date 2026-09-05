@@ -1,6 +1,6 @@
 <div align="center">
   
-  # âš¡ Rizzz (Rzbyte)
+  # Rizzz (Rzbyte)
   
   **I build safety and intelligence infrastructure for autonomous agents operating in Web3.**
 
@@ -18,7 +18,7 @@
 
 <br/>
 
-## ðŸ› ï¸ Tech Stack & Tools
+## Tech Stack & Tools
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,python,solidity,nodejs,fastapi,docker,postgres,prisma,redis,vercel,nextjs,html,css" />
@@ -26,35 +26,35 @@
 
 <br/>
 
-## ðŸš€ Featured Infrastructure & Agents
+## Featured Infrastructure & Agents
 
-### ðŸ›¡ï¸ [SafeHands](https://github.com/Rzbyte/safehands-pharos) â€” Transaction Firewall for AI Agent Finance
+### [SafeHands](https://github.com/Rzbyte/safehands-pharos) — Transaction Firewall for AI Agent Finance
 A deterministic policy engine that issues `ALLOW / REQUIRE_CONFIRMATION / BLOCK` verdicts *before* a wallet signs. Ships as an MCP server, HTTP API, CLI, and npm package. Live on Pharos Pacific Mainnet. No custody, no blind signing.
-> **`TypeScript`** Â· **`MCP`** Â· **`A2A`** Â· **`Pharos`** 
+> **`TypeScript`** · **`MCP`** · **`A2A`** · **`Pharos`** 
 
-### ðŸ“Š [Rivo](https://github.com/Rzbyte/Rivo) â€” Event Intelligence & Agent Validation
+### [Rivo](https://github.com/Rzbyte/Rivo) — Event Intelligence & Agent Validation
 Turns DreamDEX Event Contract probabilities into measurable intelligence. Calibration measured against 2,179 settled contracts. Agents validated economically, not by accuracy. Includes live shadow testing and on-chain testnet execution.
-> **`TypeScript`** Â· **`DreamDEX`** Â· **`Somnia`** Â· **`Kelly criterion`**
+> **`TypeScript`** · **`DreamDEX`** · **`Somnia`** · **`Kelly criterion`**
 
-### ðŸ‘» [FSignal](https://github.com/Rzbyte/FSignal) â€” Ghost Signal Monitor
-Persistent Slack monitor that finds founders before the official directory lists them, and proves every early alert with a timestamped receipt. Measured: median lead time 4.4 days, longest 50 days. Precision â‰¥ 90%.
-> **`Python`** Â· **`FastAPI`** Â· **`Algolia`**
+### [FSignal](https://github.com/Rzbyte/FSignal) — Ghost Signal Monitor
+Persistent Slack monitor that finds founders before the official directory lists them, and proves every early alert with a timestamped receipt. Measured: median lead time 4.4 days, longest 50 days. Precision ≥ 90%.
+> **`Python`** · **`FastAPI`** · **`Algolia`**
 
-### ðŸ§± [PhylaX](https://github.com/Rzbyte/PhylaX) â€” AI Execution Firewall for OKX X Layer
-Scans both tokens for honeypot and rug risk, fetches optimal routes across 500+ DEX paths, builds unsigned transactions â€” server never broadcasts. Dual-LLM provider abstraction with automatic fallback.
-> **`TypeScript`** Â· **`OKX Onchain OS`** Â· **`X Layer`** Â· **`Claude / DeepSeek`**
+### [PhylaX](https://github.com/Rzbyte/PhylaX) — AI Execution Firewall for OKX X Layer
+Scans both tokens for honeypot and rug risk, fetches optimal routes across 500+ DEX paths, builds unsigned transactions — server never broadcasts. Dual-LLM provider abstraction with automatic fallback.
+> **`TypeScript`** · **`OKX Onchain OS`** · **`X Layer`** · **`Claude / DeepSeek`**
 
-### ðŸ¤ [CollabOS](https://github.com/Rzbyte/CollabOS) â€” Autonomous Creator Partnership Director
+### [CollabOS](https://github.com/Rzbyte/CollabOS) — Autonomous Creator Partnership Director
 Built on Minds by Animoca Brands. Runs the full partnership lifecycle: finds aligned collaborators, admits them to a trusted Circle, coordinates campaigns, follows up autonomously. 232 tests, verified end-to-end.
-> **`TypeScript`** Â· **`Next.js`** Â· **`Postgres`** Â· **`Prisma`**
+> **`TypeScript`** · **`Next.js`** · **`Postgres`** · **`Prisma`**
 
-### ðŸ” [TraceVault](https://github.com/Rzbyte/tracevault) â€” Vector Search for Incident History
-Paste an error. Find the last time something broke like this â€” and what fixed it. Local embeddings (`all-MiniLM-L6-v2`), HNSW cosine search via Actian VectorAI DB.
-> **`Python`** Â· **`FastAPI`** Â· **`Next.js`** Â· **`Actian VectorAI`**
+### [TraceVault](https://github.com/Rzbyte/tracevault) — Vector Search for Incident History
+Paste an error. Find the last time something broke like this — and what fixed it. Local embeddings (`all-MiniLM-L6-v2`), HNSW cosine search via Actian VectorAI DB.
+> **`Python`** · **`FastAPI`** · **`Next.js`** · **`Actian VectorAI`**
 
 <br/>
 
-## ðŸ“ˆ GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Rzbyte&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Rzbyte's GitHub stats" height="192px"/>
