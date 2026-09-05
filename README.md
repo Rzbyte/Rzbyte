@@ -149,18 +149,11 @@ These are separate projects, not one system — nothing flows between them. What
 ## Stack
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=typescript,python,solidity,nodejs,fastapi,nextjs,postgres,prisma,docker,vercel&theme=dark" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Pharos-0D1117?style=flat-square" />
-<img src="https://img.shields.io/badge/Solana-0D1117?style=flat-square&logo=solana&logoColor=14F195" />
-<img src="https://img.shields.io/badge/Celo-0D1117?style=flat-square&logo=celo&logoColor=FCFF52" />
-<img src="https://img.shields.io/badge/OKX_X_Layer-0D1117?style=flat-square" />
-<img src="https://img.shields.io/badge/Somnia-0D1117?style=flat-square" />
-<img src="https://img.shields.io/badge/Lisk-0D1117?style=flat-square&logo=lisk&logoColor=white" />
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
+  <img alt="Stack: TypeScript, Python, Solidity, PHP; Node.js, FastAPI, Laravel, Postgres, Prisma, Docker; Next.js, Vercel; Pharos, Solana, Celo, OKX X Layer, Somnia, Lisk, PortalDot" src="assets/stack-dark.svg" width="100%">
+</picture>
 </div>
 
 <br/>
