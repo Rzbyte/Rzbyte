@@ -14,9 +14,14 @@
 
 <br/>
 
-### Core Engineering Stack
+### Core Engineering Stack & AI Tools
 
 <img src="https://skillicons.dev/icons?i=typescript,python,solidity,nodejs,fastapi,postgres,prisma,docker,nextjs,vercel&theme=dark" />
+<br/>
+<br/>
+<img src="https://img.shields.io/badge/Cursor_IDE-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Claude_3.5_Sonnet-CC6633?style=for-the-badge&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-FFFFFF?style=for-the-badge&logo=githubcopilot&logoColor=black"/>
 
 <br/>
 <br/>
