@@ -16,33 +16,17 @@
 
 ## How I think about the problem
 
-These are separate projects, not one system. What connects them is the question each one answers: notice something, decide whether it is safe, then act on it. Grouping them this way is how I pick what to build next.
+These are separate projects, not one system — nothing flows between them. What connects them is the question each one answers. Grouping them this way is how I pick what to build next.
 
 ```mermaid
 flowchart LR
-    subgraph DETECT["1 - DETECT"]
-        direction TB
-        F["FSignal<br/>founder signals, 4.4d lead"]
-        W["whale-pacifica<br/>whale + liquidation flow"]
-        T["TraceVault<br/>incident recall"]
-    end
+    D["1 - DETECT<br/>notice something<br/> <br/>FSignal<br/>whale-pacifica<br/>TraceVault"]
+    E["2 - DECIDE<br/>is it safe?<br/> <br/>SafeHands<br/>PhylaX"]
+    A["3 - ACT<br/>act on it<br/> <br/>Rivo<br/>Piggy Sentinel<br/>CollabOS"]
 
-    subgraph DECIDE["2 - DECIDE"]
-        direction TB
-        S["SafeHands<br/>ALLOW / BLOCK before signing"]
-        P["PhylaX<br/>token risk + route scan"]
-    end
+    D -.-> E -.-> A
 
-    subgraph ACT["3 - ACT"]
-        direction TB
-        R["Rivo<br/>agent validation, 2179 contracts"]
-        PS["Piggy Sentinel<br/>non-custodial savings"]
-        C["CollabOS<br/>partnership agent, 232 tests"]
-    end
-
-    DETECT -.-> DECIDE -.-> ACT
-
-    style DECIDE stroke:#0e75b6,stroke-width:2px
+    style E stroke:#0e75b6,stroke-width:3px
 ```
 The middle layer is the one I keep coming back to: **nothing should reach a wallet without a verdict first.**
 
