@@ -10,6 +10,14 @@
 <a href="https://x.com/rzbyte_"><img src="https://img.shields.io/badge/@rzbyte__-0D1117?style=for-the-badge&logo=x&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Indonesia-161B22?style=for-the-badge" />
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+  <img alt="20 projects shipped, 11 of 13 months shipped, 7 chains deployed to, 4 live right now" src="assets/stats-dark.svg" width="100%">
+</picture>
+
 </div>
 
 <br/>

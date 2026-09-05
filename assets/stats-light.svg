@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 118" width="1200" height="118" role="img" aria-label="20 projects shipped, 11 of 13 months with a release, 7 chains, 4 live">
+  <rect width="1200" height="118" rx="10" fill="#F6F8FA" stroke="#D8DEE4" stroke-width="1.5"/>
+  <g stroke="#D8DEE4" stroke-width="1">
+    <path d="M300 30V88"/><path d="M600 30V88"/><path d="M900 30V88"/>
+  </g>
+
+  <g text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+    <text x="150" y="60" font-size="34" font-weight="700" fill="#1F2328">20</text>
+    <text x="150" y="86" font-size="12.5" fill="#57606A" letter-spacing="0.6">projects shipped</text>
+
+    <text x="450" y="60" font-size="34" font-weight="700" fill="#1F2328">11</text>
+    <text x="450" y="86" font-size="12.5" fill="#57606A" letter-spacing="0.6">of 13 months shipped</text>
+
+    <text x="750" y="60" font-size="34" font-weight="700" fill="#1F2328">7</text>
+    <text x="750" y="86" font-size="12.5" fill="#57606A" letter-spacing="0.6">chains deployed to</text>
+
+    <text x="1050" y="60" font-size="34" font-weight="700" fill="#1a7f37">4</text>
+    <text x="1050" y="86" font-size="12.5" fill="#57606A" letter-spacing="0.6">live right now</text>
+  </g>
+</svg>
